@@ -27,15 +27,9 @@ Route::get('home', 'MyControllers@index');
 
 Route::get('editStatus','DoingController@index');
 
-//Route::get('done', 'MyControllers@done');
-
 Route::get('all', 'DoingController@show4');
 
 Route::get('to-do', 'DoingController@show');
-
-//Route::get('Done', 'MyControllers@done2');
-
-//Route::get('Doing', 'MyControllers@doing2');
 
 Route::get('index', 'MyControllers@index');
 
