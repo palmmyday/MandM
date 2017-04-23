@@ -1,12 +1,12 @@
-<?php
+<?php namespace App\Http\Controllers;
 
-namespace App\Http\Controllers;
+use App\Http\Requests;
+use App\Http\Controllers\Controller;
 
 use Illuminate\Http\Request;
 
-class MyControllers extends Controller
-{
-    
+class MyControllers extends Controller {
+
 	public function done() {
 		return view('Test.done');
 	}
@@ -59,11 +59,7 @@ class MyControllers extends Controller
 		return view('Test.user-name');
 	}
 
-	public function todo2(){
-		return view('Test.task-to-do');
-	}
-
-	public function abc(){
-		echo "123";
+	public function edit(){
+		return view('Test.editStatus');
 	}
 }

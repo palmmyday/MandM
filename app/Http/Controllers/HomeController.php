@@ -1,12 +1,7 @@
-<?php
+<?php namespace App\Http\Controllers;
 
-namespace App\Http\Controllers;
+class HomeController extends Controller {
 
-use Illuminate\Http\Request;
-
-class HomeController extends Controller
-{
-    
 	/*
 	|--------------------------------------------------------------------------
 	| Home Controller
@@ -37,4 +32,5 @@ class HomeController extends Controller
 	{
 		return view('home');
 	}
+
 }
