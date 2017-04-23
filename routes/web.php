@@ -11,41 +11,52 @@
 |
 */
 
-/*Route::get('/', function () {
+Route::get('/', function () {
     return view('welcome');
-});*/
+});
 
 Route::get('/', 'MyControllers@index');
 
-Route::post('abc','MyControllers@abc');
+Route::get('home', 'MyControllers@index');
+
+Route::get('done', 'DoingController@show2');
+
+Route::get('doing', 'DoingController@show3');
 
 Route::get('home', 'MyControllers@index');
 
-Route::get('done', 'MyControllers@done');
+Route::get('editStatus','DoingController@index');
 
-Route::get('doing', 'MyControllers@doing');
+//Route::get('done', 'MyControllers@done');
 
-Route::get('all', 'MyControllers@all');
+Route::get('all', 'DoingController@show4');
 
-Route::get('to-do', 'MyControllers@todo');
+Route::get('to-do', 'DoingController@show');
 
-Route::get('Done', 'MyControllers@done2');
+//Route::get('Done', 'MyControllers@done2');
 
-Route::get('Doing', 'MyControllers@doing2');
+//Route::get('Doing', 'MyControllers@doing2');
 
 Route::get('index', 'MyControllers@index');
 
 Route::get('tracking', 'MyControllers@tracking');
 
 Route::get('create', 'MyControllers@create');
-//Route::post('create/sendtopic', 'TopicController@data');
 
 Route::get('meeting', 'MyControllers@meeting');
 
 Route::get('task', 'MyControllers@task');
 
-Route::get('stat', 'MyControllers@stat');
+Route::get('statistic', 'MyControllers@stat');
 
 Route::get('user', 'MyControllers@user');
 
-Route::get('todo','MyControllers@todo2');
+Route::get('check-connect',function(){
+ if(DB::connection()->getDatabaseName())
+ {
+ return "Yes! successfully connected to the DB: " . DB::connection()->getDatabaseName();
+ }else{
+ return 'Connection False !!';
+ }
+ 
+});
