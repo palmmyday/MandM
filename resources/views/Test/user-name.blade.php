@@ -112,9 +112,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    </div>
    <div class="verticalspacer" data-offset-top="487" data-content-above-spacer="487" data-content-below-spacer="61"></div>
   </div>
-  <!-- Other scripts -->
-  
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>

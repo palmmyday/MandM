@@ -39,7 +39,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <form class="form-grp clearfix grpelem" id="widgetu1484" method="post" enctype="multipart/form-data" action="scripts/form-u1484.php"><!-- none box -->
       <div class="fld-grp clearfix grpelem" id="widgetu1493" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1496-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1493_input" name="custom_U1493" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu1493_prompt" for="widgetu1493_input"><span class="actAsPara">Search</span></label></span>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u1496-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu1493_input" name="custom_U1493" tabindex="1"/></span>
       </div>
       <div class="clearfix grpelem" id="u1492-4"><!-- content -->
        <p>กำลังส่งแบบฟอร์ม...</p>
@@ -63,7 +63,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </div>
    </div>
    <div class="clearfix grpelem" id="u3791"><!-- group -->
-    <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u3794" href="create.html"><!-- image --><img class="block" id="u3794_img" src="images/add.jpg?crc=216216779" alt="" data-image-width="29" data-image-height="27"/></a>
+    <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u3794" href="create"><!-- image --><img class="block" id="u3794_img" src="images/add.jpg?crc=216216779" alt="" data-image-width="29" data-image-height="27"/></a>
     <a class="nonblock nontext Button ButtonSelected rounded-corners clearfix grpelem" id="buttonu3792" href="/create"><!-- container box --><div class="clearfix grpelem" id="u3793-4"><!-- content --><p>CreateMeeting</p></div></a>
    </div>
    <div class="clearfix grpelem" id="pu2684-4"><!-- column -->
@@ -98,20 +98,20 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     </form>
    </div>
    <div class="clearfix grpelem" id="u3796"><!-- group -->
-    <a class="nonblock nontext clip_frame grpelem" id="u3797" href="meeting.html"><!-- image --><img class="block" id="u3797_img" src="images/meet.jpg?crc=387250552" alt="" data-image-width="28" data-image-height="27"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3797" href="meeting"><!-- image --><img class="block" id="u3797_img" src="images/meet.jpg?crc=387250552" alt="" data-image-width="28" data-image-height="27"/></a>
     <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3799" href="/meeting"><!-- container box --><div class="clearfix grpelem" id="u3800-4"><!-- content --><p>Meeting</p></div></a>
    </div>
    <div class="clearfix grpelem" id="u3801"><!-- group -->
-    <a class="nonblock nontext clip_frame grpelem" id="u3804" href="task.html"><!-- image --><img class="block" id="u3804_img" src="images/task.jpg?crc=3886215572" alt="" data-image-width="28" data-image-height="27"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3804" href="task"><!-- image --><img class="block" id="u3804_img" src="images/task.jpg?crc=3886215572" alt="" data-image-width="28" data-image-height="27"/></a>
     <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3802" href="/task"><!-- container box --><div class="clearfix grpelem" id="u3803-4"><!-- content --><p>Task</p></div></a>
    </div>
    <div class="clearfix grpelem" id="u3806"><!-- group -->
-    <a class="nonblock nontext clip_frame grpelem" id="u3807" href="tracking.html"><!-- image --><img class="block" id="u3807_img" src="images/track.jpg?crc=3785465045" alt="" data-image-width="28" data-image-height="27"/></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3807" href="tracking"><!-- image --><img class="block" id="u3807_img" src="images/track.jpg?crc=3785465045" alt="" data-image-width="28" data-image-height="27"/></a>
     <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3809" href="/tracking"><!-- container box --><div class="clearfix grpelem" id="u3810-4"><!-- content --><p>Tracking</p></div></a>
    </div>
    <div class="clearfix grpelem" id="u3811"><!-- group -->
-    <a class="nonblock nontext clip_frame grpelem" id="u3812" href="statistic.html"><!-- image --><img class="block" id="u3812_img" src="images/stat.jpg?crc=410270029" alt="" data-image-width="26" data-image-height="24"/></a>
-    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3814" href="/stat"><!-- container box --><div class="clearfix grpelem" id="u3815-4"><!-- content --><p>Statistic</p></div></a>
+    <a class="nonblock nontext clip_frame grpelem" id="u3812" href="statistic"><!-- image --><img class="block" id="u3812_img" src="images/stat.jpg?crc=410270029" alt="" data-image-width="26" data-image-height="24"/></a>
+    <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3814" href="/statistic"><!-- container box --><div class="clearfix grpelem" id="u3815-4"><!-- content --><p>Statistic</p></div></a>
    </div>
    <div class="clearfix grpelem" id="u1530"><!-- group -->
     <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu1534" href="/user"><!-- container box --><div class="clearfix grpelem" id="u1535-4"><!-- content --><p>User Name</p></div></a>
@@ -123,9 +123,6 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="fluid_height_spacer"></div>
    </div>
   </div>
-  <!-- Other scripts -->
-  
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>

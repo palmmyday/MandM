@@ -39,7 +39,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <form class="form-grp clearfix grpelem" id="widgetu6416" method="post" enctype="multipart/form-data" action="scripts/form-u6416.php"><!-- none box -->
       <div class="fld-grp clearfix grpelem" id="widgetu6417" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u6419-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu6417_input" name="custom_U6417" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu6417_prompt" for="widgetu6417_input"><span class="actAsPara">Search</span></label></span>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u6419-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu6417_input" name="custom_U6417" tabindex="1"/></span>
       </div>
       <div class="clearfix grpelem" id="u6426-4"><!-- content -->
        <p>กำลังส่งแบบฟอร์ม...</p>
@@ -63,7 +63,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix grpelem" id="u6468"><!-- group -->
       <div class="pointer_cursor MuseLinkActive clearfix grpelem" id="u6469"><!-- group -->
        <a class="block" href="task-to-do.html"><!-- Block link tag --></a>
-       <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u6470-4" href="/todo"><!-- content --><p>TO DO</p></a>
+       <a class="nonblock nontext MuseLinkActive clearfix grpelem" id="u6470-4" href="/PALM/todo"><!-- content --><p>TO DO</p></a>
       </div>
      </div>
     </div>
@@ -99,9 +99,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
    <div class="grpelem" id="u6411"><!-- simple frame --></div>
    <div class="verticalspacer" data-offset-top="487" data-content-above-spacer="487" data-content-below-spacer="61"></div>
   </div>
-  <!-- Other scripts -->
   
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>

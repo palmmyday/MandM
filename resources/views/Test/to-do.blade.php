@@ -69,7 +69,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <div class="clearfix grpelem" id="u5939"><!-- group -->
       <div class="pointer_cursor clearfix grpelem" id="u5927"><!-- group -->
        <a class="block" href="task-to-do.html"><!-- Block link tag --></a>
-       <a class="nonblock nontext clearfix grpelem" id="u5930-4" href=" /todo"><!-- content --><p>TO DO</p></a>
+       <a class="nonblock nontext clearfix grpelem" id="u5930-4" href=" /PALM/todo"><!-- content --><p>TO DO</p></a>
       </div>
      </div>
     </div>
@@ -110,7 +110,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
            
             <tr>
                 <th>
-                    TASK NUM
+                    TASK NAME
                 </th>
                 <th>
                     STATUS
@@ -118,17 +118,41 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
                 <th>
                     PERSON-SENDER
                 </th>
+                <th>
+                    DeadLine
+                </th>
             </tr>
+
+            @if($jan != null)
+            
+                @foreach($jan as $d)
+            
+                <tr>
+                    <td>
+                        {{$d->trackingTopic}}
+                    </td>
+                    <td>
+                        {{$d->trackStatusName}}
+                    </td>
+                    <td>
+                        {{$d->personFirstName}} {{$d->personLastName}}
+                    </td>
+                    <td>
+                        {{$d->trackingDeadline}}
+                    </td>
+                </tr>
+                @endforeach 
+            @else
+                <p> no variable </p>
+            @endif
         </table>
+        <a href = "/editStatus"><button type="button" style=color:blue>Edit</button></a>
         </div>
         </div>  
      </main>
    </div>
    <div class="grpelem" id="u5748"><!-- simple frame --></div>
   </div>
-  <!-- Other scripts -->
-  
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 </html>

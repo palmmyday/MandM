@@ -39,7 +39,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <form class="form-grp clearfix grpelem" id="widgetu3354" method="post" enctype="multipart/form-data" action="scripts/form-u3354.php"><!-- none box -->
       <div class="fld-grp clearfix grpelem" id="widgetu3363" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u3366-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu3363_input" name="custom_U3363" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu3363_prompt" for="widgetu3363_input"><span class="actAsPara">Search</span></label></span>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u3366-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu3363_input" name="custom_U3363" tabindex="1"/></span>
       </div>
       <div class="clearfix grpelem" id="u3362-4"><!-- content -->
        <p>กำลังส่งแบบฟอร์ม...</p>
@@ -109,12 +109,9 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
     <div class="fluid_height_spacer"></div>
    </div>
    <div id="myDiagramContainer">
-      <div id="myDiagramBuilder" style="height:100px;width:1000px;float:right;margin: 80px 20px 200px 0"></div>
+      <div id="myDiagramBuilder" style="height:100px;width:1200px;float:right;margin: 80px 0 0 0"></div>
   </div>
   </div>
-  <!-- Other scripts -->
-  
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
    </body>
 

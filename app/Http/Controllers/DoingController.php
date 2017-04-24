@@ -17,12 +17,13 @@ class DoingController extends Controller {
 	 */
 	public function index()
 	{
-		$obj 	=new Tracking();
-		$obj->trackingTopic 	= 'ABC';
-		$obj->trackingDeadline 	='2017-04-26 00:00:00';
-		$obj->TrackingDateAccept='2017-04-19 00:00:00';
-		$obj->TrackingDescription='ABuvbjernvgioewriv';
-		$obj->save();
+		$jan=DB::table('tracking')
+			->join('trackstatus', 'tracking.trackStatus_trackStatusId', '=', 'trackstatus.trackStatusId')
+			->join('member','tracking.member_Person_personId_sender','=','member.Person_personId')
+			->join('person','member.Person_personId','=','person.personId')->get();
+		//$r= trackstatus::lists('trackStatusName','trackstatusId');
+		//dd($jan);
+		return view('Test.editStatus', ["jan" => $jan]);
 	}
 
 	/**

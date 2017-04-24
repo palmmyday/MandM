@@ -32,8 +32,8 @@
                                 </tr>
                             </thead>
                             <tbody>
-                            @if($track != null)
-                                @foreach($track as $u)
+                            @if($jan != null)
+                                @foreach($jan as $u)
                                 <tr>
                                     <td>{{$u->trackingId}}</td>
                                     <td class="text-center"><input name="id[]" type="checkbox" id="id" value="{{$u->id}}" class="checkboxAll" /></td>
@@ -43,9 +43,9 @@
                                     <td>{{$u->personLastName}}</td>
                                     <td class="text-center"><i class="fa {{$u->trackStatusName == 'TO DO' ? 'glyphicon glyphicon-ok ':'glyphicon glyphicon-remove'}}"></i></td>
                                     <td class="text-right">
-                                        <a href="{{url('admin/user/form/'.$u->id)}}" title="" class="edit"><i class="glyphicon glyphicon-pencil"></i></a>
+                                        <a href="{{url('admin/user/form/'.$u->trackingId)}}" title="" class="edit"><i class="glyphicon glyphicon-pencil"></i></a>
                                         &nbsp;&nbsp;&nbsp;
-                                        <a href="{{url('admin/user/delete/'.$u->id)}}" title="" class="del"><i class="glyphicon glyphicon-remove"></i></a>
+                                        <a href="{{url('/delete',$u->trackingId)}}" title="" class="del"><i class="glyphicon glyphicon-remove"></i></a>
                                     </td>
                                 </tr>
                                 @endforeach

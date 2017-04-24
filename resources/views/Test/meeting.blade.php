@@ -6,6 +6,14 @@
   <meta name="generator" content="2017.0.1.363"/>
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   
+<!-- Latest compiled and minified CSS -->
+    
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+        <!-- Optional theme -->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+        
+
   <script type="text/javascript">
    // Update the 'nojs'/'js' class on the html node
 document.documentElement.className = document.documentElement.className.replace(/\bnojs\b/g, 'js');
@@ -37,7 +45,7 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      </div>
      <form class="form-grp clearfix grpelem" id="widgetu2958" method="post" enctype="multipart/form-data" action="scripts/form-u2958.php"><!-- none box -->
       <div class="fld-grp clearfix grpelem" id="widgetu2967" data-required="true"><!-- none box -->
-       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u2970-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu2967_input" name="custom_U2967" tabindex="1"/><label class="wrapped-input fld-prompt" id="widgetu2967_prompt" for="widgetu2967_input"><span class="actAsPara">Search</span></label></span>
+       <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u2970-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu2967_input" name="custom_U2967" tabindex="1"/></span>
       </div>
       <div class="clearfix grpelem" id="u2966-4"><!-- content -->
        <p>กำลังส่งแบบฟอร์ม...</p>
@@ -60,42 +68,13 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu2977" href="/done"><!-- container box --><div class="clearfix grpelem" id="u2978-4"><!-- content --><p>Done</p></div></a>
     </div>
    </div>
+    
    <div class="clearfix grpelem" id="u3871"><!-- group -->
     <a class="nonblock nontext clip_frame grpelem" id="u3874" href="create.html"><!-- image --><img class="block" id="u3874_img" src="images/add.jpg?crc=216216779" alt="" data-image-width="29" data-image-height="27"/></a>
     <a class="nonblock nontext Button rounded-corners clearfix grpelem" id="buttonu3872" href="/create"><!-- container box --><div class="clearfix grpelem" id="u3873-4"><!-- content --><p>CreateMeeting</p></div></a>
    </div>
-   <div class="clearfix grpelem" id="pu4212-4"><!-- column -->
-    <img class="colelem" id="u4212-4" alt="Create Meeting" src="images/u4212-4.png?crc=184407688" data-image-width="380"/><!-- rasterized frame -->
-    <form class="form-grp clearfix colelem" id="widgetu4191" method="post" enctype="multipart/form-data" action="abc"><!-- none box -->
-    {!!Form::token()!!}
-     <div class="clearfix grpelem" id="u4202-4"><!-- content -->
-      <p>ได้รับแบบฟอร์มแล้ว</p>
-     </div>
-     <div class="fld-grp clearfix grpelem" id="widgetu4193" data-required="true"><!-- none box -->
-      <label class="fld-label actAsDiv clearfix grpelem" id="u4195-4" for="widgetu4193_input"><!-- content --><span class="actAsPara">Topic:</span></label>
-      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4194-4"><!-- content --><input class="wrapped-input" type="text" spellcheck="false" id="widgetu4193_input" name="custom_U4193" tabindex="3"/><label class="wrapped-input fld-prompt" id="widgetu4193_prompt" for="widgetu4193_input"><span class="actAsPara">Topic of meeting</span></label></span>
-     </div>
-     <div class="clearfix grpelem" id="u4201-4"><!-- content -->
-      <p>กำลังส่งแบบฟอร์ม...</p>
-     </div>
-     <div class="clearfix grpelem" id="u4207-4"><!-- content -->
-      <p>เซิร์ฟเวอร์พบข้อผิดพลาด</p>
-     </div>
-     <button class="submit-btn NoWrap rounded-corners clearfix grpelem" id="u4192-4" type="submit" value="Send" tabindex="6"><!-- content -->
-      <div style="margin-top:-11px;height:11px;">
-       <p>Send</p>
-      </div>
-     </button>
-     <div class="fld-grp clearfix grpelem" id="widgetu4208" data-required="true"><!-- none box -->
-      <label class="fld-label actAsDiv clearfix grpelem" id="u4210-4" for="widgetu4208_input"><!-- content --><span class="actAsPara">Place:</span></label>
-      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4209-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu4208_input" name="custom_U4208" tabindex="4"/><label class="wrapped-input fld-prompt" id="widgetu4208_prompt" for="widgetu4208_input"><span class="actAsPara">Place</span></label></span>
-     </div>
-     <div class="fld-grp clearfix grpelem" id="widgetu4203" data-required="true"><!-- none box -->
-      <label class="fld-label actAsDiv clearfix grpelem" id="u4206-4" for="widgetu4203_input"><!-- content --><span class="actAsPara">Date-Time:</span></label>
-      <span class="fld-input NoWrap actAsDiv clearfix grpelem" id="u4204-4"><!-- content --><input class="wrapped-input" type="text" id="widgetu4203_input" name="custom_U4203" tabindex="5"/><label class="wrapped-input fld-prompt" id="widgetu4203_prompt" for="widgetu4203_input"><span class="actAsPara">DD-MM-YY/HH:MM</span></label></span>
-     </div>
-    </form>
-   </div>
+   
+
    <div class="clearfix grpelem" id="u3876"><!-- group -->
     <a class="nonblock nontext MuseLinkActive clip_frame grpelem" id="u3877" href="meeting.html"><!-- image --><img class="block" id="u3877_img" src="images/meet.jpg?crc=387250552" alt="" data-image-width="28" data-image-height="27"/></a>
     <a class="nonblock nontext Button ButtonSelected rounded-corners clearfix grpelem" id="buttonu3879" href="/meeting"><!-- container box --><div class="clearfix grpelem" id="u3880-4"><!-- content --><p>Meeting</p></div></a>
@@ -118,13 +97,16 @@ if(typeof Muse == "undefined") window.Muse = {}; window.Muse.assets = {"required
      <a class="nonblock nontext rounded-corners clip_frame grpelem" id="u3006" href="/user"><!-- image --><img class="block" id="u3006_img" src="images/pasted%20image%20500x500-crop-u3006.jpg?crc=136723755" alt="" data-image-width="24" data-image-height="22"/></a>
     </div>
    </div>
+  
    <div class="grpelem" id="u2953"><!-- simple frame -->
     <div class="fluid_height_spacer"></div>
+      <main style="margin:0% 0% 0% 0%">
+          @yield('content')
+      </main>
    </div>
+   
   </div>
-  <!-- Other scripts -->
-  
-  <!-- RequireJS script -->
   <script src="scripts/require.js?crc=4159430777" type="text/javascript" async data-main="scripts/museconfig.js?crc=172512987" onload="if (requirejs) requirejs.onError = function(requireType, requireModule) { if (requireType && requireType.toString && requireType.toString().indexOf && 0 <= requireType.toString().indexOf('#scripterror')) window.Muse.assets.check(); }" onerror="window.Muse.assets.check();"></script>
+  
    </body>
 </html>
